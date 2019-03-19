@@ -9,6 +9,7 @@ set(tests
     sigmoid_operation
     softmax_operation
     softplus_operation
+    elu_operation
    )
 
 foreach(test ${tests})
