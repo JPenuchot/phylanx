@@ -5,11 +5,11 @@
 
 set(tests
     batch_dot_operation
+    elu_operation
     hard_sigmoid_operation
     sigmoid_operation
     softmax_operation
     softplus_operation
-    elu_operation
    )
 
 foreach(test ${tests})
